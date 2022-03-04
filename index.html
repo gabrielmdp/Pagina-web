@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bier Cervecería</title>
+
+    <!--Icono de la pestaña-->
+    <link rel="icon" href="/assets/B.ico">
+
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Baloo+2:wght@700&family=Montserrat:wght@400;700&family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/22feae936e.js" crossorigin="anonymous"></script>
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header class="contenedor-navegacion">
+        <div class="contenido-navegacion contenedor">
+            <!--Logo-->
+            <div class="logo">
+                <a href="index.html"><h2><span class="amarillo">Bier</span> <span class="rojo">Cervecería</span></h2></a>
+            </div>
+
+            <!--Menu Responsive-->
+            <div class="menu-hamburguesa">
+                <span></span><span></span><span></span>
+            </div>
+            <!--Barra de navegacion-->
+            <nav class="navegacion ocultar">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Sobre Nosotros</a>
+                <a href="productos.html">Nuestros Productos</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>  
+        </div>
+    </header>
+    
+    <!--Video-->
+    <section class="contenedor-video">
+        <div class="contenido-video">
+            <div class="texto-video">
+                <h2>Bienvenido a esta experiencia</h2>
+                <a href="productos.html" class="botones">Nuestras Cervezas</a>
+            </div>
+            <video autoplay loop muted>
+                <source src="assets/fondo.mp4">
+            </video>
+        </div>
+    </section>
+    
+
+    <!--Footer-->
+    <footer class="pie-pagina-index">
+        <div class="contenedor-piepagina contenedor">
+            <!--Logo-->
+            <div class="info-piepagina">
+                <a href="index.html"><h2><span class="amarillo">Bier</span> <span class="rojo">Cervecería</span></h2></a>
+            </div>
+
+            <!--Dia y horario-->
+            <div class="info-piepagina">
+                <h3>Días y Horarios</h3>
+                <p>Lunes - Domingo</p>
+                <p>19hs a 00hs</p>
+            </div>
+
+            <!--Redes sociales-->
+            <div class="info-piepagina">
+                <h3>Redes Sociales</h3>
+                <div class="redes-sociales redes-pie">
+                    <a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!--Informacion-->
+            <div class="info-piepagina">
+                <h3>Información</h3>
+                <ul>
+                    <li>Bier Cervecería</li>
+                    <li>Bernardo de Irigoyen 4951</li>
+                    <li>Mar del Plata, Buenos Aires, Argentina</li>
+                    <li><a href="mailto:biercerveceria@gmail.com">biercerveceria@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Derechos reservados-->
+        <div class="derechos-reservados">
+            <p>Todos los derechos reservados &copy; 2022 Bier Cervecería</p>
+        </div>
+    </footer>
+
+<!--Javascript para la barra de navegacion responsive-->
+<script src="app.js"></script>
+</body>
+</html>
